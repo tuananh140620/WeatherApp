@@ -36,7 +36,8 @@ fun WeatherDataDisplay(
         )
         Spacer(modifier = Modifier.width(4.dp))
         Text(
-            text = "$value$unit"
+            text = "$value$unit",
+            style = textStyle
         )
     }
 }

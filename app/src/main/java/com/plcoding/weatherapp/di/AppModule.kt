@@ -33,9 +33,4 @@ object AppModule {
     fun provideFusedLocationProviderClient(app:Application):FusedLocationProviderClient{
         return LocationServices.getFusedLocationProviderClient((app))
     }
-
-//    @Provides
-//    @Singleton
-//    fun providerWeatherRepository(weatherApi: WeatherApi): WeatherRepository = WeatherRepositoryImpl(weatherApi)
-
 }
