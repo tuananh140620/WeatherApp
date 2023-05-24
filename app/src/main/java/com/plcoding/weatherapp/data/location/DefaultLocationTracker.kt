@@ -14,7 +14,7 @@ import java.util.jar.Manifest
 import javax.inject.Inject
 import kotlin.coroutines.resume
 
-@OptIn(ExperimentalCoroutinesApi::class)
+@ExperimentalCoroutinesApi
 class DefaultLocationTracker @Inject constructor(
     private val locationClient: FusedLocationProviderClient,
     private val application: Application
